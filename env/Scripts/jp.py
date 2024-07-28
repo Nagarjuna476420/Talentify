@@ -1,4 +1,4 @@
-#!C:\Users\Manaswini\Desktop\Talentify\env\Scripts\python.exe
+#!C:\Users\chint\Desktop\Talentify\env\Scripts\python.exe
 
 import sys
 import json

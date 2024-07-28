@@ -10,4 +10,4 @@ def create_recruiter_view(request):
         data = request.POST
         recruiter = create_recruiter(data['email'], data['password'], data['company_name'], data['phone_number'], data['address'])
         return JsonResponse({'user_id': recruiter.user_id})
-    return render(request, 'recruiter/create.html')
+    return render(request, 'Recruiter_Templates/Login.js')
