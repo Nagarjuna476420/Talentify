@@ -10,4 +10,7 @@ def create_recruiter_view(request):
         data = request.POST
         recruiter = create_recruiter(data['email'], data['password'], data['company_name'], data['phone_number'], data['address'])
         return JsonResponse({'user_id': recruiter.user_id})
-    return render(request, 'recruiter/Login.html')
+    return render(request, 'Create_account.html')
+
+def login_account(request):
+    return render(request,'Login.html')
